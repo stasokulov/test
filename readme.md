@@ -49,3 +49,14 @@ mkdir my_project
 cd my_project
 git init
 ```
+
+## Схема в формате [meramid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
